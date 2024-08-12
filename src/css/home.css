@@ -1,0 +1,60 @@
+.home-container {
+    font-family: Arial, sans-serif;
+    color: #4A4A4A;
+}
+
+.welcome-text {
+    color: #4A90E2;
+}
+
+.overview-card {
+    background-color: #F5F7FA;
+    text-align: center;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.chart-card {
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+    border: none;
+    text-align: center;
+}
+
+.chart-placeholder {
+    height: 200px;
+    background-color: #F0F0F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #B7B7B7;
+}
+
+.transactions-card {
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.alert-card {
+    background-color: #D0021B;
+    color: white;
+    text-align: center;
+    border: none;
+    margin-bottom: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .overview-card, .chart-card, .transactions-card, .alert-card {
+        margin-bottom: 10px;
+    }
+
+    .table th, .table td {
+        font-size: 0.9rem;
+    }
+
+    .chart-placeholder {
+        height: 150px;
+    }
+}
